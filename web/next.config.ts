@@ -51,10 +51,8 @@ const nextConfig: NextConfig = {
   // utilisée.
   poweredByHeader: false,
 
-  experimental: {
-    // Transitions de vue natives entre navigations.
-    viewTransition: true,
-  },
+  // Plus d'option viewTransition : depuis Next 16.4 l'App Router gere les
+  // transitions de vue sans reglage, et l'option a disparu du type.
 };
 
 export default nextConfig;
